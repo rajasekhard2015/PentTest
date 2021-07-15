@@ -39,6 +39,7 @@ namespace WebApplication1
             services.ConfigureApplicationCookie(options =>
             {
                 options.Cookie.Path = "/";
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
             });
 
 
