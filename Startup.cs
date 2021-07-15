@@ -38,7 +38,7 @@ namespace WebApplication1
 
             services.ConfigureApplicationCookie(options =>
             {
-                options.Cookie.Path = "/WebApplication1";
+                options.Cookie.Path = "/";
             });
 
 
